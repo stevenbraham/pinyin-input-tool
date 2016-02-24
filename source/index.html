@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- Search engines -->
+        <meta name="description" content="Use this tool input Pinyin characters using the tone system">
+        <!-- Google Plus -->
+        <!-- Update your html tag to include the itemscope and itemtype attributes. -->
+        <!-- html itemscope itemtype="http://schema.org/{CONTENT_TYPE}" -->
+        <meta itemprop="name" content="Pinyin input tool">
+        <meta itemprop="description" content="Use this tool input Pinyin characters using the tone system">
+        <meta itemprop="image" content="">
+        <!-- Twitter -->
+        <meta name="twitter:card" content="Use this tool input Pinyin characters using the tone system">
+        <meta name="twitter:site" content="@steven_braham">
+        <meta name="twitter:title" content="Pinyin input tool">
+        <meta name="twitter:description" content="Use this tool input Pinyin characters using the tone system">
+        <meta name="twitter:creator" content="@steven_braham">
+        <meta name="twitter:image:src" content="">
+        <meta name="twitter:player" content="">
+        <!-- Open Graph General (Facebook & Pinterest) -->
+        <meta property="og:url" content="https://pinyin.braham.biz">
+        <meta property="og:title" content="Pinyin input tool">
+        <meta property="og:description" content="Use this tool input Pinyin characters using the tone system">
+        <meta property="og:site_name" content="Pinyin input tool">
+        <meta property="og:image" content="">
+        <meta property="fb:admins" content="">
+        <meta property="fb:app_id" content="">
+        <meta property="og:type" content="">
+        <meta property="og:locale" content="">
+        <meta property="og:audio" content="">
+        <meta property="og:video" content="">
+        <link rel="stylesheet" href="/node_modules/material-design-lite/material.min.css">
+        <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Pinyin input tool</title>
+    </head>
+
+    <body>
+        <div class="mdl-card mdl-shadow--4dp" id="mainView">
+            <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Pinyin input tool</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--6-col"><b>Your text:</b>
+                        <form action="#" id="mainForm">
+                            <div class="mdl-textfield mdl-js-textfield">
+                                <textarea name="" id="pinyinText" cols="30" rows="21" class="mdl-textfield__input"></textarea>
+                                <label class="mdl-textfield__label" for="pinyinText">Type your pinyin text here</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <p>Type a <u>vowel</u> and a number for the tone. The letter will be formatted with the requested tone. Example e4 -> è</p>
+                        <table class="mdl-data-table mdl-shadow--2dp">
+                            <thead>
+                                <tr>
+                                    <th>Input example</th>
+                                    <th>Output</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>u0</td>
+                                    <td>ü</td>
+                                </tr>
+                                <tr>
+                                    <td>u1</td>
+                                    <td>ū</td>
+                                </tr>
+                                <tr>
+                                    <td>u2</td>
+                                    <td>ú</td>
+                                </tr>
+                                <tr>
+                                    <td>u3</td>
+                                    <td>ǔ</td>
+                                </tr>
+                                <tr>
+                                    <td>u4</td>
+                                    <td>ù</td>
+                                </tr>
+                                <tr>
+                                    <td>u5</td>
+                                    <td>û</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="mdl-cell mdl-cell--12-col">
+                        <small class="footer">&copy;2016 <a href="https://braham.biz">Steven Braham</a> | <a href="https://github.com/stevenbraham/pinyin-input-tool" target="_blank">Source code</a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/node_modules/material-design-lite/material.min.js"></script>
+        <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script src="/js/main.js"></script>
+    </body>
+
+</html>
